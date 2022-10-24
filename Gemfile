@@ -7,6 +7,8 @@ ruby '2.6.10'
 gem 'rails', '~> 6.0.6'
 # Use sqlite3 as the database for Active Record
 gem 'puma', '3.12.2'
+gem 'bcrypt', '3.1.13'
+
 gem 'sass-rails'
 gem 'bootstrap-sass', '3.4.1'
 gem 'webpacker', '4.0.7'

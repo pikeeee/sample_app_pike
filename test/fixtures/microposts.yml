@@ -1,0 +1,16 @@
+piketest:
+  content: "I pike!"
+  created_at: <%= 10.minutes.ago %>
+  user: pike
+test:
+  content: "short test"
+  created_at: <%= 3.years.ago %>
+  user: pike
+test2:
+  content: "short tét"
+  created_at: <%= 2.hours.ago %>
+  user: pike
+test3:
+  content: "short test"
+  created_at: <%= Time.zone.now %>
+  user: pike
